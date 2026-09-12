@@ -1,0 +1,87 @@
+column,definition
+GEOID10,Unique census block ID string
+acer_count,count of all acer trees
+acer_count_per_tree_count,acer count / tree count
+acer_height_sum,sum of acer height
+acer_height_sum_prop,sum of acer height / total sum of height
+ag_hh_inc,aggregate household income census block group level 2017
+aland10,Area from census sq meters
+angio_height_prop,sum of angio height / total height
+angio_height_prop_cubed,cubed transformation
+angio_height_sum,sum of height for angiosperm trees
+arbuscular_height_prop,sum of height for arbuscular mycorrhizal trees / total height
+arbuscular_height_prop_squared,squared transformation
+arbuscular_prop,arbuscualar tree count / total tree count
+area_hectare,land area in hectares
+canopy_per,canopy cover %
+count_am,count of arbuscular mycorrhizal trees
+cqq,Composite canopy quantityâ€“quality index (CQQ) summarizing both canopy amount and canopy condition at the census-block scale (formula described in methodological appendix).
+diffuse_count,count of diffuse porrous trees
+diffuse_height_prop,sum of diffuse porrous heights / total height
+diffuse_height_sum,sum of heights for diffuse porrous trees
+diffuse_prop,count of diffuse porrous trees / total tree count
+genera_dominance,"taxonomic scale 'dominance' metric, core simpson term: __(n__iÚ(T))^2 ), not used in analysis"
+genera_richness,genera richness
+genera_richness_per_hectare,richness / land area in hectares
+genera_true_evenness,genera-level  evenness (full formula described in methodological appendix)
+grass_per,proportion of non tree land area that is grass or shrub
+health_color,average of treeHealth values from individual tree survey. See metadata from tree survey for explanation of treeHealth
+health_color_height_prop,Sum (height*treeHealth proportion) / sum of all tree heights for a census block. See metadata for tree survey for explanation of treeHealth
+health_color_height_prop_cubed,cubed transformation of health_color_height_prop
+health_color_squared,Squared transformation of health_color.
+imp_per,proportion of non canopy land area that is road or other paved surface
+lst_avg,LST average May - Sep in degrees C
+lst_res,"Residuals of LST using the following regressiong variables (x: canopy_per, grass_per, elevation_squared; y: lst_avg)"
+mean_height,mean height in meters  of all trees in a block
+mean_height_log,log transformation
+med_hh_inc,"median household income, CBG 2017"
+muni_id,Municipality #
+muni_name,Municipality Name
+ndvi_avg,NDVI average (May - Sep)
+ndvi_cv,old NDVI CV
+ndvi_cvA_O,NDVI CV April - October
+ndvi_cvJ_A,NDVI CV June - August
+ndvi_res,"Residuals of NDVI using the following regressiong variables (x: canopy per sqrt, grass per sqrt; y: ndvi_avg)"
+per_bipoc,percent of residents that are non-white (census block level 2010)
+percent_angio,count of angio trees / tree_count
+percent_angio_cubed,cubed transformation
+pop_density,population density people/per hectare (2010 census block level).
+quercus_acer_height_sum,sum of acer and quercus trees
+quercus_acer_height_sum_prop,(sum of acer and quercus trees / total height)
+quercus_count,count of oak trees
+quercus_count_per_tree_count,oak count / tree_count
+quercus_count_per_tree_sqrt,sqrt transformation
+quercus_height_sum,sum of oak heights
+quercus_height_sum_prop,some of oak heights / total heights
+quercus_height_sum_prop_sqrt,sqrt transformation
+soil_access_count,sum of soil access values for all trees in a block. Soil access is the sum of the number cardinal directions where a tree canopy is encroaching any amount of impervious surface.
+soil_access_per_tree_count,sum of soil access values for all trees in a block / total tree count
+soil_access_per_tree_count_sqrt,sqrt transformation
+spa,Neightborhood #
+spanm,Neightborhood name Cleveland Only
+species_dominance,"taxonomic scale 'dominance' metric, core simpson term: __(n__iÚ(T))^2 ), not used in analysis"
+species_true_evenness,taxonomic-level  evenness (full formula described in methodological appendix)
+street_tree_count,count of street trees in a block
+street_tree_height_sum,sum of heights for street trees
+street_tree_height_sum_prop,sum of heights for street trees / total tree height
+street_tree_percent,street tree count / tree count
+stressors_sum,"sum of values within bark damage, branch damge, sprouts, pest damge, these categories were all taken at tree level 0- no issues, 1 minor issues, 2, major issues. these values are summed and then divided by the total number of trees"
+stressors_sum_per_tree_count,"This metric aggregates indicators of tree stress, including bark damage, branch damage, basal sprouts, and pest damage. Each stressor is scored from 0 to 2, where 0 indicates no issues, 1 indicates minor issues, and 2 indicates major issues. Scores for all four stressor categories are summed for each tree, then averaged across all trees in a block. The total is divided by the number of trees to produce a block-level average stressor score."
+stressors_sum_per_tree_count_sqrt,sqrt transformation
+sum_AM_heights,sum of heights for arbuscular mycorrhizal trees
+sum_angio,sum of angio trees
+sum_bark_issue,sum of bark issuse
+sum_basal_bole,sum of basal bole sprout issues
+sum_branch_iss,sum of branch issues
+sum_height_per_hectare,sum of tree height / land area
+sum_heights,sum of tree heights
+sum_heights_per_hectare,sum of tree height / land area
+sum_size_health_color,sum of size health color values
+t_quality,Overall tree quality index at the block scale (full formula described in methodological appendix)
+tax_richness_per_hectare,richness / land area in hectares
+taxonomic_richness,"Taxonomic richness is the number of different types of taxa (like species or genera) recorded in a dataset.  The count of distinct tree types identified, even if some are only identified broadly (e.g., maple sp. or broadleaf sp.) instead of by exact species."
+total_pop,total population (census block level 2010)
+tree_count,count of trees
+tree_count_per_hectare,count of trees per hectare
+tree_health_mean,"Tree health mean is the average proportion of canopy present across all surveyed trees. A value like 0.95 means that, on average, each tree retains 95% of its expected full canopy, indicating overall high canopy health."
+wkt_geom,Well Known Text Geometry

@@ -1,0 +1,52 @@
+dependent_variable,dependent_label,n,k,r_squared,adj_r_squared,aic,delta_aic,bic,max_vif,predictor_1,predictor_2,predictor_3,predictor_4,predictor_5
+lst_res,Residuals of LST,41,2,0.505978,0.479977,100.420321,5.057745,105.561038,1.118031,Tax. richness (-0.74)*,D-porous abund. (% trees) (0.38)*,,,
+lst_res,Residuals of LST,41,2,0.495092,0.468518,101.313983,5.951406,106.454699,1.061125,Tax. richness (-0.70)*,Street trees (% of trees) (0.36)*,,,
+lst_res,Residuals of LST,41,2,0.430420,0.400442,106.255434,10.892858,111.396151,1.124570,Tax. richness (-0.70)*,Angio. abund. (% of trees) (-0.25),,,
+lst_res,Residuals of LST,41,3,0.584102,0.550381,95.362577,0.000000,102.216865,2.075115,Tax. richness (-1.00)*,Canopy Health Index(height-wieghted) (0.42)*,Street trees (% of trees) (0.47)*,,
+lst_res,Residuals of LST,41,3,0.573918,0.539371,96.354452,0.991876,103.208741,1.261196,Tax. richness (-0.84)*,Angio. abund. (% of trees) (-0.28),D-porous abund. (% trees) (0.40)*,,
+lst_res,Residuals of LST,41,3,0.532481,0.494574,100.159638,4.797061,107.013926,1.166816,Tax. richness (-0.76)*,Street trees (% of trees) (0.33)*,Angio. abund. (% of trees) (-0.21),,
+lst_res,Residuals of LST,41,4,0.572598,0.525109,98.481266,3.118690,107.049127,1.254543,Tax. richness (-0.82)*,Street trees (% of trees) (0.30),Angio. abund. (% of trees) (-0.25),Maple abund. (% of trees) (0.21),
+lst_res,Residuals of LST,41,4,0.562333,0.513704,99.454345,4.091768,108.022205,1.415148,Tax. richness (-0.78)*,AMF abund. (% height) (-0.25),D-porous abund. (% trees) (0.43)*,Oak abund. (% of trees) (-0.24),
+lst_res,Residuals of LST,41,4,0.533392,0.481547,102.079629,6.717052,110.647489,2.046128,Tax. richness (-0.71)*,Genus evenness (0.30),Angio. abund. (% of trees) (-0.28),Maple abund. (% of trees) (0.45)*,
+lst_res,Residuals of LST,41,5,0.539673,0.473912,103.524027,8.161450,113.805459,2.134179,Tax. richness (-0.68)*,Genus evenness (0.31),AMF abund. (% height) (-0.34),Maple abund. (% of trees) (0.54)*,Oak abund. (% of trees) (-0.25)
+lst_res,Residuals of LST,41,5,0.535222,0.468826,103.918503,8.555927,114.199936,1.702078,Tax. richness (-0.74)*,Tax. evenness (0.25),AMF abund. (% height) (-0.36),Maple abund. (% height) (0.46)*,Oak abund. (% of trees) (-0.26)
+lst_res,Residuals of LST,41,5,0.535048,0.468627,103.933855,8.571278,114.215287,2.321024,Tax. richness (-0.71)*,Genus evenness (0.32),AMF abund. (% height) (-0.35),Maple abund. (% height) (0.55)*,Oak abund. (% of trees) (-0.27)
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,2,0.427723,0.397603,-184.120519,11.764510,-178.979803,1.100509,Damage score (0.52)*,Oak abund. (% height) (-0.27),,,
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,2,0.426394,0.396204,-184.025425,11.859605,-178.884709,1.044163,Canopy Health Index(height-wieghted) (-0.51)*,Oak abund. (% height) (-0.32),,,
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,2,0.422017,0.391596,-183.713743,12.171287,-178.573026,1.037287,Intactness (% canopy) (-0.50)*,Oak abund. (% height) (-0.33),,,
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,3,0.506743,0.466750,-188.212880,7.672149,-181.358592,1.095190,Tax. richness (-0.53)*,Street trees (% of trees) (0.39)*,Oak abund. (% height) (-0.32)*,,
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,3,0.506440,0.466422,-188.187664,7.697365,-181.333376,1.528841,Tax. richness (-0.51)*,Street trees (% of trees) (0.61)*,D-porous abund. (% trees) (-0.39)*,,
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,3,0.506389,0.466366,-188.183430,7.701600,-181.329141,1.063480,Intactness (% canopy) (-0.45)*,Soil restrictions (0.29),Oak abund. (% height) (-0.34)*,,
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,4,0.584300,0.538111,-193.226597,2.658433,-184.658737,1.568365,Tax. richness (-0.41)*,Street trees (% of trees) (0.68)*,Angio. abund. (% of trees) (0.30),D-porous abund. (% trees) (-0.45)*,
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,4,0.561927,0.513252,-191.077287,4.807742,-182.509427,1.667463,Tax. richness (-0.49)*,Street trees (% of trees) (0.55)*,D-porous abund. (% trees) (-0.30),Oak abund. (% height) (-0.25),
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,4,0.552113,0.502348,-190.168907,5.716123,-181.601047,1.196371,Tax. richness (-0.47)*,Street trees (% of trees) (0.42)*,Angio. abund. (% of trees) (0.23),Oak abund. (% height) (-0.31)*,
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,5,0.628948,0.575940,-195.885030,0.000000,-185.603597,1.721874,Tax. richness (-0.39)*,Street trees (% of trees) (0.61)*,Angio. abund. (% of trees) (0.28),D-porous abund. (% trees) (-0.36),Oak abund. (% height) (-0.23)
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,5,0.597232,0.539693,-192.522277,3.362753,-182.240844,1.263249,Tax. richness (-0.41)*,Street trees (% of trees) (0.46)*,Angio. abund. (% of trees) (0.28),Maple abund. (% of trees) (-0.23),Oak abund. (% height) (-0.25)
+ndvi_cvA_O,CV of NDVI (Apr-Oct),41,5,0.587165,0.528189,-191.510159,4.374871,-181.228726,1.240612,Tax. richness (-0.30),Soil restrictions (0.43)*,Angio. abund. (% of trees) (0.27),Maple abund. (% of trees) (-0.24),Oak abund. (% height) (-0.28)
+ndvi_cvJ_A,CV of NDVI (Jun-Aug),41,2,0.293962,0.256802,-165.203603,0.276963,-160.062887,1.015491,Tax. evenness (0.26),Damage score (0.44)*,,,
+ndvi_cvJ_A,CV of NDVI (Jun-Aug),41,2,0.293823,0.256656,-165.195549,0.285017,-160.054833,1.061125,Tax. richness (-0.54)*,Street trees (% of trees) (0.27),,,
+ndvi_cvJ_A,CV of NDVI (Jun-Aug),41,2,0.279371,0.241443,-164.364969,1.115597,-159.224253,1.110484,Genus evenness (0.25),Damage score (0.40)*,,,
+ndvi_cvJ_A,CV of NDVI (Jun-Aug),41,3,0.315662,0.260175,-164.483495,0.997071,-157.629207,1.957399,Tax. richness (-0.51)*,D-porous abund. (% trees) (0.40),Maple abund. (% height) (-0.35),,
+ndvi_cvJ_A,CV of NDVI (Jun-Aug),41,3,0.315240,0.259719,-164.458261,1.022306,-157.603972,2.033704,Tax. richness (-0.53)*,D-porous abund. (% trees) (0.41),Maple abund. (% of trees) (-0.35),,
+ndvi_cvJ_A,CV of NDVI (Jun-Aug),41,3,0.233008,0.170819,-159.808513,5.672053,-152.954225,1.967423,Genus richness (-0.39),D-porous abund. (% trees) (0.39),Maple abund. (% height) (-0.40),,
+ndvi_cvJ_A,CV of NDVI (Jun-Aug),41,4,0.363902,0.293224,-165.480566,0.000000,-156.912706,1.804798,Tax. richness (-0.39),Mean Height (-0.27),Damage score (0.39),Angio. abund. (% of trees) (-0.30),
+ndvi_cvJ_A,CV of NDVI (Jun-Aug),41,5,0.360393,0.269020,-163.255025,2.225541,-152.973593,1.804196,Tax. richness (-0.67)*,Mean Height (-0.30),AMF abund. (% height) (-0.37),D-porous abund. (% trees) (0.29),Oak abund. (% height) (-0.28)
+ndvi_res,Residuals of NDVI,41,2,0.348517,0.314228,-150.171405,1.080872,-145.030689,1.124570,Tax. richness (0.61)*,Angio. abund. (% of trees) (0.34),,,
+ndvi_res,Residuals of NDVI,41,2,0.300451,0.263633,-147.252868,3.999410,-142.112151,1.041965,Tax. richness (0.54)*,AMF abund. (% height) (0.23),,,
+ndvi_res,Residuals of NDVI,41,2,0.295587,0.258512,-146.968741,4.283537,-141.828024,1.071151,Genus richness (0.55)*,Angio. abund. (% of trees) (0.27),,,
+ndvi_res,Residuals of NDVI,41,3,0.395677,0.346678,-151.252278,0.000000,-144.397989,1.261196,Tax. richness (0.69)*,Angio. abund. (% of trees) (0.35),D-porous abund. (% trees) (-0.23),,
+ndvi_res,Residuals of NDVI,41,3,0.352931,0.300466,-148.450147,2.802131,-141.595859,1.105776,Tax. richness (0.60)*,Street trees (% of trees) (-0.24),AMF abund. (% height) (0.24),,
+ndvi_res,Residuals of NDVI,41,4,0.406037,0.340041,-149.961191,1.291086,-141.393331,1.466995,Tax. richness (0.59)*,Tax. evenness (-0.33),AMF abund. (% height) (0.31),Maple abund. (% height) (-0.32),
+ndvi_res,Residuals of NDVI,41,4,0.301619,0.224021,-143.321361,7.930917,-134.753500,1.587974,Tax. evenness (-0.38),Intactness (% canopy) (0.54)*,Angio. abund. (% of trees) (0.31),Maple abund. (% height) (-0.34),
+ndvi_res,Residuals of NDVI,41,4,0.288954,0.209949,-142.584510,8.667767,-134.016650,1.610633,Tax. evenness (-0.35),Color. & Intact. (% canopy) (0.52)*,Angio. abund. (% of trees) (0.29),Maple abund. (% height) (-0.34),
+t_quality,Integrated Tree Quality,41,2,0.587014,0.565278,168.552499,0.000000,173.693216,1.061125,Tax. richness (0.76)*,Street trees (% of trees) (-0.40)*,,,
+t_quality,Integrated Tree Quality,41,2,0.500700,0.474421,176.334074,7.781575,181.474791,1.000062,Tax. richness (0.66)*,Soil restrictions (-0.25),,,
+t_quality,Integrated Tree Quality,41,2,0.478393,0.450940,178.126046,9.573547,183.266762,1.118031,Tax. richness (0.73)*,D-porous abund. (% trees) (-0.22),,,
+t_quality,Integrated Tree Quality,41,3,0.541482,0.504305,174.840522,6.288023,181.694810,1.043517,Tax. richness (0.62)*,Tax. evenness (-0.21),Soil restrictions (-0.26),,
+t_quality,Integrated Tree Quality,41,3,0.538320,0.500886,175.122369,6.569870,181.976658,1.074260,Genus richness (0.65)*,Tax. evenness (-0.26),Street trees (% of trees) (-0.36)*,,
+t_quality,Integrated Tree Quality,41,3,0.519024,0.480026,176.801064,8.248565,183.655352,1.261196,Tax. richness (0.81)*,Angio. abund. (% of trees) (0.21),D-porous abund. (% trees) (-0.23),,
+t_quality,Integrated Tree Quality,41,4,0.517238,0.463597,178.953082,10.400583,187.520943,1.634030,Tax. richness (0.75)*,AMF abund. (% height) (0.29),D-porous abund. (% height) (-0.28),Oak abund. (% of trees) (0.27),
+t_quality,Integrated Tree Quality,41,4,0.514708,0.460787,179.167366,10.614866,187.735226,1.509386,Tax. richness (0.73)*,AMF abund. (% height) (0.26),D-porous abund. (% height) (-0.27),Oak abund. (% height) (0.25),
+t_quality,Integrated Tree Quality,41,4,0.489823,0.433137,181.217658,12.665158,189.785518,1.627236,Genus richness (0.46)*,Tax. evenness (-0.30),Intactness (% canopy) (0.27),D-porous abund. (% trees) (-0.22),
+t_quality,Integrated Tree Quality,41,5,0.569109,0.507553,176.292671,7.740172,186.574103,1.844748,Tax. richness (0.58)*,Tax. evenness (-0.26),Damage score (-0.27),Angio. abund. (% of trees) (0.22),Maple abund. (% height) (-0.26)
+t_quality,Integrated Tree Quality,41,5,0.564058,0.501781,176.770435,8.217936,187.051868,2.223968,Tax. richness (0.57)*,Tax. evenness (-0.30),Intactness (% canopy) (0.29),Angio. abund. (% of trees) (0.24),Maple abund. (% height) (-0.29)

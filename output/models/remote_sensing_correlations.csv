@@ -1,0 +1,16 @@
+variable_1,variable_1_label,variable_2,variable_2_label,n,pearson_r,p_value
+canopy_per,Canopy Cover,grass_per,Other Plant Cover,8520,0.464089,0.000000
+canopy_per,Canopy Cover,lst_res,LST Residual,8520,-0.000000,1.000000
+grass_per,Other Plant Cover,lst_res,LST Residual,8520,0.000000,1.000000
+canopy_per,Canopy Cover,ndvi_res,NDVI Residual,8520,-0.001355,0.900458
+grass_per,Other Plant Cover,ndvi_res,NDVI Residual,8520,-0.005971,0.581561
+lst_res,LST Residual,ndvi_res,NDVI Residual,8520,-0.224228,0.000000
+canopy_per,Canopy Cover,ndvi_cvA_O,NDVI CV (Apr–Oct),8520,0.124340,0.000000
+grass_per,Other Plant Cover,ndvi_cvA_O,NDVI CV (Apr–Oct),8520,-0.301546,0.000000
+lst_res,LST Residual,ndvi_cvA_O,NDVI CV (Apr–Oct),8520,-0.017813,0.100158
+ndvi_res,NDVI Residual,ndvi_cvA_O,NDVI CV (Apr–Oct),8520,-0.327095,0.000000
+canopy_per,Canopy Cover,ndvi_cvJ_A,NDVI CV (Jun–Aug),8520,-0.267911,0.000000
+grass_per,Other Plant Cover,ndvi_cvJ_A,NDVI CV (Jun–Aug),8520,-0.166261,0.000000
+lst_res,LST Residual,ndvi_cvJ_A,NDVI CV (Jun–Aug),8520,0.043591,0.000057
+ndvi_res,NDVI Residual,ndvi_cvJ_A,NDVI CV (Jun–Aug),8520,-0.336624,0.000000
+ndvi_cvA_O,NDVI CV (Apr–Oct),ndvi_cvJ_A,NDVI CV (Jun–Aug),8520,0.537220,0.000000

@@ -1,0 +1,191 @@
+variable_1,variable_1_label,variable_2,variable_2_label,n,pearson_r,p_value
+acer_count_per_tree_count,Maple abund. (% of trees),acer_height_sum_prop,Maple abund. (% height),41,0.962877,0.000000
+tree_health_mean,Intactness (% canopy),health_color_squared,Color. & Intact. (% canopy),41,0.958013,0.000000
+quercus_count_per_tree_sqrt,Oak abund. (% of trees),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.956591,0.000000
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),health_color_squared,Color. & Intact. (% canopy),41,0.936541,0.000000
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),tree_health_mean,Intactness (% canopy),41,0.934995,0.000000
+genera_richness_per_hectare,Genus richness,tax_richness_per_hectare,Tax. richness,41,0.918945,0.000000
+diffuse_prop,D-porous abund. (% trees),diffuse_height_prop,D-porous abund. (% height),41,0.889648,0.000000
+stressors_sum_per_tree_count,Damage score,tree_health_mean,Intactness (% canopy),41,-0.876012,0.000000
+arbuscular_prop,AMF abund. (% of trees),arbuscular_height_prop_squared,AMF abund. (% height),41,0.866756,0.000000
+stressors_sum_per_tree_count,Damage score,health_color_squared,Color. & Intact. (% canopy),41,-0.855245,0.000000
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),stressors_sum_per_tree_count,Damage score,41,-0.839773,0.000000
+species_true_evenness,Tax. evenness,genera_true_evenness,Genus evenness,41,0.832412,0.000000
+diffuse_height_prop,D-porous abund. (% height),acer_height_sum_prop,Maple abund. (% height),41,0.756694,0.000000
+diffuse_height_prop,D-porous abund. (% height),acer_count_per_tree_count,Maple abund. (% of trees),41,0.718906,0.000000
+genera_true_evenness,Genus evenness,acer_height_sum_prop,Maple abund. (% height),41,-0.708480,0.000000
+soil_access_per_tree_count_sqrt,Soil restrictions,street_tree_percent,Street trees (% of trees),41,0.696871,0.000000
+diffuse_prop,D-porous abund. (% trees),acer_count_per_tree_count,Maple abund. (% of trees),41,0.694493,0.000000
+genera_true_evenness,Genus evenness,acer_count_per_tree_count,Maple abund. (% of trees),41,-0.691111,0.000001
+diffuse_prop,D-porous abund. (% trees),acer_height_sum_prop,Maple abund. (% height),41,0.687359,0.000001
+tax_richness_per_hectare,Tax. richness,tree_health_mean,Intactness (% canopy),41,0.678416,0.000001
+tax_richness_per_hectare,Tax. richness,health_color_squared,Color. & Intact. (% canopy),41,0.675508,0.000001
+tax_richness_per_hectare,Tax. richness,health_color_height_prop_cubed,Canopy Health Index(height-wieghted),41,0.650862,0.000004
+tax_richness_per_hectare,Tax. richness,stressors_sum_per_tree_count,Damage score,41,-0.636243,0.000008
+arbuscular_height_prop_squared,AMF abund. (% height),percent_angio_cubed,Angio. abund. (% of trees),41,0.609049,0.000024
+genera_richness_per_hectare,Genus richness,tree_health_mean,Intactness (% canopy),41,0.605468,0.000027
+genera_richness_per_hectare,Genus richness,health_color_squared,Color. & Intact. (% canopy),41,0.582733,0.000064
+genera_richness_per_hectare,Genus richness,health_color_height_prop_cubed,Canopy Health Index(height-wieghted),41,0.574280,0.000086
+genera_richness_per_hectare,Genus richness,stressors_sum_per_tree_count,Damage score,41,-0.554776,0.000167
+street_tree_percent,Street trees (% of trees),diffuse_prop,D-porous abund. (% trees),41,0.553898,0.000172
+arbuscular_height_prop_squared,AMF abund. (% height),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,-0.504379,0.000772
+street_tree_percent,Street trees (% of trees),diffuse_height_prop,D-porous abund. (% height),41,0.484816,0.001316
+species_true_evenness,Tax. evenness,acer_height_sum_prop,Maple abund. (% height),41,-0.466982,0.002084
+arbuscular_height_prop_squared,AMF abund. (% height),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,-0.458118,0.002595
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),percent_angio_cubed,Angio. abund. (% of trees),41,-0.415498,0.006902
+mean_height_log,Mean Height,arbuscular_height_prop_squared,AMF abund. (% height),41,-0.414374,0.007070
+species_true_evenness,Tax. evenness,acer_count_per_tree_count,Maple abund. (% of trees),41,-0.413511,0.007202
+health_color_squared,Color. & Intact. (% canopy),acer_height_sum_prop,Maple abund. (% height),41,0.412960,0.007288
+arbuscular_prop,AMF abund. (% of trees),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,-0.412893,0.007298
+arbuscular_prop,AMF abund. (% of trees),percent_angio_cubed,Angio. abund. (% of trees),41,0.377149,0.015067
+tree_health_mean,Intactness (% canopy),acer_height_sum_prop,Maple abund. (% height),41,0.371729,0.016708
+tree_health_mean,Intactness (% canopy),percent_angio_cubed,Angio. abund. (% of trees),41,-0.351828,0.024083
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),acer_height_sum_prop,Maple abund. (% height),41,0.347827,0.025854
+arbuscular_prop,AMF abund. (% of trees),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,-0.347493,0.026007
+genera_true_evenness,Genus evenness,diffuse_height_prop,D-porous abund. (% height),41,-0.346233,0.026589
+tax_richness_per_hectare,Tax. richness,genera_true_evenness,Genus evenness,41,-0.334999,0.032274
+tax_richness_per_hectare,Tax. richness,percent_angio_cubed,Angio. abund. (% of trees),41,-0.332823,0.033483
+health_color_squared,Color. & Intact. (% canopy),acer_count_per_tree_count,Maple abund. (% of trees),41,0.327696,0.036481
+soil_access_per_tree_count_sqrt,Soil restrictions,diffuse_height_prop,D-porous abund. (% height),41,0.326890,0.036971
+tax_richness_per_hectare,Tax. richness,diffuse_prop,D-porous abund. (% trees),41,0.324916,0.038196
+health_color_squared,Color. & Intact. (% canopy),percent_angio_cubed,Angio. abund. (% of trees),41,-0.322220,0.039921
+genera_true_evenness,Genus evenness,stressors_sum_per_tree_count,Damage score,41,0.315423,0.044554
+acer_height_sum_prop,Maple abund. (% height),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.311545,0.047387
+genera_true_evenness,Genus evenness,health_color_squared,Color. & Intact. (% canopy),41,-0.308959,0.049355
+tree_health_mean,Intactness (% canopy),acer_count_per_tree_count,Maple abund. (% of trees),41,0.305420,0.052156
+stressors_sum_per_tree_count,Damage score,acer_height_sum_prop,Maple abund. (% height),41,-0.305048,0.052458
+stressors_sum_per_tree_count,Damage score,quercus_height_sum_prop_sqrt,Oak abund. (% height),41,-0.302208,0.054807
+tree_health_mean,Intactness (% canopy),diffuse_prop,D-porous abund. (% trees),41,0.300721,0.056070
+stressors_sum_per_tree_count,Damage score,soil_access_per_tree_count_sqrt,Soil restrictions,41,0.297077,0.059265
+soil_access_per_tree_count_sqrt,Soil restrictions,diffuse_prop,D-porous abund. (% trees),41,0.293684,0.062368
+tax_richness_per_hectare,Tax. richness,acer_height_sum_prop,Maple abund. (% height),41,0.293193,0.062827
+stressors_sum_per_tree_count,Damage score,percent_angio_cubed,Angio. abund. (% of trees),41,0.291093,0.064823
+genera_true_evenness,Genus evenness,quercus_height_sum_prop_sqrt,Oak abund. (% height),41,-0.291009,0.064904
+mean_height_log,Mean Height,stressors_sum_per_tree_count,Damage score,41,0.288694,0.067164
+diffuse_height_prop,D-porous abund. (% height),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.285904,0.069971
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),soil_access_per_tree_count_sqrt,Soil restrictions,41,-0.285069,0.070829
+genera_true_evenness,Genus evenness,health_color_height_prop_cubed,Canopy Health Index(height-wieghted),41,-0.280517,0.075651
+genera_richness_per_hectare,Genus richness,mean_height_log,Mean Height,41,-0.279426,0.076843
+genera_richness_per_hectare,Genus richness,diffuse_prop,D-porous abund. (% trees),41,0.279073,0.077233
+acer_count_per_tree_count,Maple abund. (% of trees),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.279044,0.077266
+diffuse_height_prop,D-porous abund. (% height),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.274040,0.082951
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),acer_count_per_tree_count,Maple abund. (% of trees),41,0.273315,0.083802
+mean_height_log,Mean Height,arbuscular_prop,AMF abund. (% of trees),41,-0.272606,0.084640
+mean_height_log,Mean Height,percent_angio_cubed,Angio. abund. (% of trees),41,-0.268109,0.090108
+genera_true_evenness,Genus evenness,tree_health_mean,Intactness (% canopy),41,-0.264347,0.094888
+health_color_squared,Color. & Intact. (% canopy),diffuse_prop,D-porous abund. (% trees),41,0.263179,0.096411
+species_true_evenness,Tax. evenness,quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,-0.262937,0.096729
+genera_true_evenness,Genus evenness,diffuse_prop,D-porous abund. (% trees),41,-0.262309,0.097558
+stressors_sum_per_tree_count,Damage score,acer_count_per_tree_count,Maple abund. (% of trees),41,-0.261221,0.099007
+genera_true_evenness,Genus evenness,quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,-0.258301,0.102977
+genera_richness_per_hectare,Genus richness,percent_angio_cubed,Angio. abund. (% of trees),41,-0.257730,0.103767
+species_true_evenness,Tax. evenness,quercus_height_sum_prop_sqrt,Oak abund. (% height),41,-0.256703,0.105201
+acer_height_sum_prop,Maple abund. (% height),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.252114,0.111790
+genera_richness_per_hectare,Genus richness,street_tree_percent,Street trees (% of trees),41,0.248375,0.117386
+stressors_sum_per_tree_count,Damage score,street_tree_percent,Street trees (% of trees),41,0.244358,0.123629
+tax_richness_per_hectare,Tax. richness,mean_height_log,Mean Height,41,-0.243163,0.125535
+tax_richness_per_hectare,Tax. richness,acer_count_per_tree_count,Maple abund. (% of trees),41,0.242763,0.126177
+acer_count_per_tree_count,Maple abund. (% of trees),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.242002,0.127407
+diffuse_prop,D-porous abund. (% trees),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.241104,0.128868
+tax_richness_per_hectare,Tax. richness,street_tree_percent,Street trees (% of trees),41,0.240009,0.130668
+tax_richness_per_hectare,Tax. richness,diffuse_height_prop,D-porous abund. (% height),41,0.230972,0.146242
+health_color_squared,Color. & Intact. (% canopy),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.230200,0.147633
+arbuscular_prop,AMF abund. (% of trees),acer_count_per_tree_count,Maple abund. (% of trees),41,0.222965,0.161144
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),arbuscular_height_prop_squared,AMF abund. (% height),41,-0.220465,0.166015
+mean_height_log,Mean Height,tree_health_mean,Intactness (% canopy),41,-0.217098,0.172744
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),diffuse_prop,D-porous abund. (% trees),41,0.215292,0.176432
+diffuse_prop,D-porous abund. (% trees),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.212432,0.182387
+genera_richness_per_hectare,Genus richness,genera_true_evenness,Genus evenness,41,-0.211682,0.183972
+genera_richness_per_hectare,Genus richness,acer_height_sum_prop,Maple abund. (% height),41,0.208549,0.190700
+mean_height_log,Mean Height,soil_access_per_tree_count_sqrt,Soil restrictions,41,0.208404,0.191016
+species_true_evenness,Tax. evenness,diffuse_height_prop,D-porous abund. (% height),41,-0.207576,0.192826
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.205657,0.197063
+tax_richness_per_hectare,Tax. richness,species_true_evenness,Tax. evenness,41,-0.201173,0.207223
+health_color_squared,Color. & Intact. (% canopy),soil_access_per_tree_count_sqrt,Soil restrictions,41,-0.200899,0.207855
+tax_richness_per_hectare,Tax. richness,arbuscular_height_prop_squared,AMF abund. (% height),41,-0.200687,0.208345
+street_tree_percent,Street trees (% of trees),acer_height_sum_prop,Maple abund. (% height),41,0.198152,0.214269
+tree_health_mean,Intactness (% canopy),diffuse_height_prop,D-porous abund. (% height),41,0.197364,0.216133
+street_tree_percent,Street trees (% of trees),percent_angio_cubed,Angio. abund. (% of trees),41,-0.192047,0.229011
+tree_health_mean,Intactness (% canopy),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.189596,0.235123
+health_color_squared,Color. & Intact. (% canopy),diffuse_height_prop,D-porous abund. (% height),41,0.186846,0.242106
+genera_richness_per_hectare,Genus richness,diffuse_height_prop,D-porous abund. (% height),41,0.186476,0.243059
+mean_height_log,Mean Height,quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.185857,0.244654
+genera_richness_per_hectare,Genus richness,acer_count_per_tree_count,Maple abund. (% of trees),41,0.185575,0.245382
+mean_height_log,Mean Height,health_color_squared,Color. & Intact. (% canopy),41,-0.177596,0.266629
+arbuscular_height_prop_squared,AMF abund. (% height),acer_height_sum_prop,Maple abund. (% height),41,0.173901,0.276867
+stressors_sum_per_tree_count,Damage score,quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,-0.171832,0.282709
+street_tree_percent,Street trees (% of trees),acer_count_per_tree_count,Maple abund. (% of trees),41,0.170557,0.286352
+arbuscular_height_prop_squared,AMF abund. (% height),acer_count_per_tree_count,Maple abund. (% of trees),41,0.170039,0.287840
+arbuscular_prop,AMF abund. (% of trees),acer_height_sum_prop,Maple abund. (% height),41,0.165684,0.300547
+tax_richness_per_hectare,Tax. richness,quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.161060,0.314425
+soil_access_per_tree_count_sqrt,Soil restrictions,acer_count_per_tree_count,Maple abund. (% of trees),41,0.157823,0.324377
+tree_health_mean,Intactness (% canopy),soil_access_per_tree_count_sqrt,Soil restrictions,41,-0.155408,0.331929
+percent_angio_cubed,Angio. abund. (% of trees),diffuse_height_prop,D-porous abund. (% height),41,0.151251,0.345182
+soil_access_per_tree_count_sqrt,Soil restrictions,acer_height_sum_prop,Maple abund. (% height),41,0.147283,0.358132
+arbuscular_height_prop_squared,AMF abund. (% height),diffuse_height_prop,D-porous abund. (% height),41,0.145346,0.364559
+stressors_sum_per_tree_count,Damage score,arbuscular_prop,AMF abund. (% of trees),41,-0.132630,0.408439
+mean_height_log,Mean Height,health_color_height_prop_cubed,Canopy Health Index(height-wieghted),41,-0.127816,0.425807
+species_true_evenness,Tax. evenness,stressors_sum_per_tree_count,Damage score,41,0.123510,0.441688
+species_true_evenness,Tax. evenness,arbuscular_prop,AMF abund. (% of trees),41,0.123353,0.442272
+species_true_evenness,Tax. evenness,percent_angio_cubed,Angio. abund. (% of trees),41,-0.121423,0.449501
+genera_richness_per_hectare,Genus richness,arbuscular_prop,AMF abund. (% of trees),41,0.116786,0.467126
+tree_health_mean,Intactness (% canopy),arbuscular_prop,AMF abund. (% of trees),41,0.115861,0.470684
+species_true_evenness,Tax. evenness,health_color_squared,Color. & Intact. (% canopy),41,-0.113740,0.478899
+stressors_sum_per_tree_count,Damage score,arbuscular_height_prop_squared,AMF abund. (% height),41,0.107789,0.502348
+species_true_evenness,Tax. evenness,health_color_height_prop_cubed,Canopy Health Index(height-wieghted),41,-0.106498,0.507509
+tax_richness_per_hectare,Tax. richness,quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.104510,0.515511
+mean_height_log,Mean Height,street_tree_percent,Street trees (% of trees),41,0.101588,0.527387
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),street_tree_percent,Street trees (% of trees),41,-0.101080,0.529463
+street_tree_percent,Street trees (% of trees),arbuscular_prop,AMF abund. (% of trees),41,-0.099260,0.536939
+percent_angio_cubed,Angio. abund. (% of trees),acer_height_sum_prop,Maple abund. (% height),41,0.095477,0.552643
+health_color_squared,Color. & Intact. (% canopy),arbuscular_height_prop_squared,AMF abund. (% height),41,-0.093660,0.560263
+percent_angio_cubed,Angio. abund. (% of trees),acer_count_per_tree_count,Maple abund. (% of trees),41,0.092710,0.564265
+health_color_squared,Color. & Intact. (% canopy),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.092259,0.566167
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.091661,0.568700
+species_true_evenness,Tax. evenness,diffuse_prop,D-porous abund. (% trees),41,-0.091020,0.571419
+soil_access_per_tree_count_sqrt,Soil restrictions,percent_angio_cubed,Angio. abund. (% of trees),41,-0.090343,0.574293
+health_color_squared,Color. & Intact. (% canopy),arbuscular_prop,AMF abund. (% of trees),41,0.088300,0.583015
+tree_health_mean,Intactness (% canopy),arbuscular_height_prop_squared,AMF abund. (% height),41,-0.087206,0.587710
+mean_height_log,Mean Height,acer_count_per_tree_count,Maple abund. (% of trees),41,0.081931,0.610577
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),diffuse_height_prop,D-porous abund. (% height),41,0.081403,0.612889
+percent_angio_cubed,Angio. abund. (% of trees),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,-0.080237,0.618003
+genera_true_evenness,Genus evenness,soil_access_per_tree_count_sqrt,Soil restrictions,41,-0.076470,0.634644
+stressors_sum_per_tree_count,Damage score,diffuse_prop,D-porous abund. (% trees),41,-0.074010,0.645610
+species_true_evenness,Tax. evenness,street_tree_percent,Street trees (% of trees),41,0.071812,0.655467
+arbuscular_prop,AMF abund. (% of trees),diffuse_prop,D-porous abund. (% trees),41,-0.069148,0.667495
+genera_true_evenness,Genus evenness,arbuscular_prop,AMF abund. (% of trees),41,-0.068339,0.671164
+mean_height_log,Mean Height,diffuse_height_prop,D-porous abund. (% height),41,-0.066581,0.679166
+street_tree_percent,Street trees (% of trees),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,-0.065968,0.681963
+percent_angio_cubed,Angio. abund. (% of trees),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,-0.065015,0.686323
+tax_richness_per_hectare,Tax. richness,arbuscular_prop,AMF abund. (% of trees),41,-0.064819,0.687219
+soil_access_per_tree_count_sqrt,Soil restrictions,arbuscular_prop,AMF abund. (% of trees),41,-0.064146,0.690301
+mean_height_log,Mean Height,diffuse_prop,D-porous abund. (% trees),41,0.062974,0.695686
+genera_true_evenness,Genus evenness,percent_angio_cubed,Angio. abund. (% of trees),41,-0.058925,0.714399
+genera_richness_per_hectare,Genus richness,species_true_evenness,Tax. evenness,41,-0.057507,0.720995
+mean_height_log,Mean Height,quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.055636,0.729722
+genera_richness_per_hectare,Genus richness,soil_access_per_tree_count_sqrt,Soil restrictions,41,0.053850,0.738085
+species_true_evenness,Tax. evenness,tree_health_mean,Intactness (% canopy),41,-0.052214,0.745773
+species_true_evenness,Tax. evenness,arbuscular_height_prop_squared,AMF abund. (% height),41,0.052063,0.746487
+species_true_evenness,Tax. evenness,mean_height_log,Mean Height,41,0.050912,0.751911
+arbuscular_height_prop_squared,AMF abund. (% height),diffuse_prop,D-porous abund. (% trees),41,-0.049033,0.760793
+genera_richness_per_hectare,Genus richness,arbuscular_height_prop_squared,AMF abund. (% height),41,-0.048563,0.763018
+tree_health_mean,Intactness (% canopy),quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.048197,0.764755
+percent_angio_cubed,Angio. abund. (% of trees),diffuse_prop,D-porous abund. (% trees),41,-0.044629,0.781731
+street_tree_percent,Street trees (% of trees),quercus_height_sum_prop_sqrt,Oak abund. (% height),41,-0.041660,0.795931
+genera_true_evenness,Genus evenness,arbuscular_height_prop_squared,AMF abund. (% height),41,-0.036954,0.818572
+species_true_evenness,Tax. evenness,soil_access_per_tree_count_sqrt,Soil restrictions,41,-0.036689,0.819854
+genera_true_evenness,Genus evenness,mean_height_log,Mean Height,41,-0.036674,0.819922
+mean_height_log,Mean Height,acer_height_sum_prop,Maple abund. (% height),41,-0.036062,0.822880
+genera_richness_per_hectare,Genus richness,quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,-0.030676,0.849001
+stressors_sum_per_tree_count,Damage score,diffuse_height_prop,D-porous abund. (% height),41,-0.028882,0.857738
+genera_richness_per_hectare,Genus richness,quercus_height_sum_prop_sqrt,Oak abund. (% height),41,0.026521,0.869265
+street_tree_percent,Street trees (% of trees),arbuscular_height_prop_squared,AMF abund. (% height),41,-0.023615,0.883486
+genera_true_evenness,Genus evenness,street_tree_percent,Street trees (% of trees),41,-0.015382,0.923958
+tree_health_mean,Intactness (% canopy),street_tree_percent,Street trees (% of trees),41,0.014711,0.927265
+soil_access_per_tree_count_sqrt,Soil restrictions,quercus_count_per_tree_sqrt,Oak abund. (% of trees),41,0.011410,0.943557
+health_color_height_prop_cubed,Canopy Health Index(height-wieghted),arbuscular_prop,AMF abund. (% of trees),41,0.011172,0.944729
+tax_richness_per_hectare,Tax. richness,soil_access_per_tree_count_sqrt,Soil restrictions,41,0.007904,0.960882
+soil_access_per_tree_count_sqrt,Soil restrictions,quercus_height_sum_prop_sqrt,Oak abund. (% height),41,-0.006969,0.965509
+arbuscular_prop,AMF abund. (% of trees),diffuse_height_prop,D-porous abund. (% height),41,0.006062,0.969994
+soil_access_per_tree_count_sqrt,Soil restrictions,arbuscular_height_prop_squared,AMF abund. (% height),41,-0.005284,0.973844
+health_color_squared,Color. & Intact. (% canopy),street_tree_percent,Street trees (% of trees),41,0.000028,0.999861
