@@ -13,23 +13,23 @@ Robert Moore (a,b), Brice Grunert (a), Kaiguang Zhao (c), and Kevin Mueller (a).
 
 (c) School of Environment and Natural Resources, The Ohio State University, Columbus, OH, 43210, USA 
 
-## Data
+# Data
 
 Three related datasets are included in this repository.
 
-### 1. Ground-Truthing Analysis Data
+### 1. Ground-Truthing Analysis Data (n=41 census blocks)
 
 The ground-truthing dataset contains aggregated tree survey data for **41 census blocks** where all woody vegetation within each census block boundary was surveyed using field-based methods.
 
 This dataset also includes remotely sensed metrics of canopy quality derived for these census blocks, allowing field-based measurements to be compared with remotely sensed indicators.
 
-### 2. Remote Sensing Analysis Data
+### 2. Remote Sensing Analysis Data (n=8,520 census blocks)
 
 The remote sensing dataset contains the larger sample of census blocks used for the remote sensing component of the study.
 
 These census blocks contain the remotely sensed indices of canopy quality used in the analysis.
 
-### 3. Tree Survey Data
+### 3. Tree Survey Data (n=8,200 trees)
 
 The tree survey dataset contains the **individual tree-level observations** collected using field-based survey methods.
 
@@ -57,6 +57,8 @@ The code in this repository documents important components of the analytical wor
 Some processing and analysis were performed externally using GIS and statistical software and are therefore not fully represented by the scripts provided here.
 
 The primary purpose of the repository is to provide a record of the computational methods used in the study and to enable researchers to reproduce or adapt these methods for other geographic areas.
+
+The authors request that users not utilize these data for other purposes (e.g., analyses of these data to achieve other scientific aims related to canopy quality specifically or urban ecology generally) without first seeking permission from the corresponding authors, Robert Moore and Kevin Mueller
 
 ## Python Environment
 
