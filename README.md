@@ -37,7 +37,9 @@ Each dataset includes a corresponding **metadata table** describing the variable
 
 ## Code and Reproducibility
 
-The scripts included in this repository document major components of the analytical workflow and are intended to help researchers reproduce or adapt these methods for other study areas. Although this code primarily utilizes publicly accessible data, our analysis is highly contingent on multi-class land cover data with high spatial resolution. Specifically generation of residuals as we have done is not only dependent on canopy cover data but also grass/shrub (or other plant cover) as well as impervious surface need to be accounted for. Methods for the production of the land cover data we used can be found here:
+The scripts included in this repository document major components of the analytical workflow and are intended to help researchers reproduce or adapt these methods for other study areas. Although this code primarily utilizes publicly accessible data, our analysis is highly contingent on multi-class land cover data with high spatial resolution.
+Specifically, generation of residuals as we have done is not only dependent on canopy cover data but also grass/shrub (or other plant cover) as well as impervious surface need to be accounted for. Methods for the production of the land cover data we used can be found here:
+
 https://www.countyplanning.us/projects/urban-tree-canopy-assessment-update/urban-tree-canopy-assessment-update-land-cover-methodology/. 
 
 The provided code can be used to:
@@ -45,7 +47,7 @@ The provided code can be used to:
 1. **Download NDVI and land surface temperature (LST) imagery** for a user-defined area of interest using `image-export.py`.
 2. **Reproduce the data filtering procedures** used to prepare the datasets for analysis. `data-filters.py`
 3. **Generate residual-based metrics of LST and NDVI** using the modeling procedures applied in this study `residual-model.py`.
-4. **Calculate zonal statistics** for a series of raster images using census blocks or other polygon-based areas of interest to calculate averages and pixel counts which are need for all subsequent analysis `zonal-stats.py`.
+4. **Calculate zonal statistics** for a series of raster images using census blocks or other polygon-based areas of interest to calculate averages and pixel counts which are needed for all subsequent analysis `zonal-stats.py`.
 5. **Recreate the statistical modeling procedure** used for census blocks containing both field-based tree survey data and remotely sensed canopy-quality metrics `statistical-modeling.py`
 
 ## Scope and Limitations
