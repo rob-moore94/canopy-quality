@@ -5,7 +5,7 @@ This repository contains code and data used for the study **“Beyond Canopy Cov
 The repository is intended to document key components of the analytical workflow and support reproducibility and adaptation of these methods to other study areas.
 
 # Authors
-Robert Moore (a,b), Brice Grunert (a), Kaiguang Zhao (c), and Kevnin Mueller (a). 
+Robert Moore (a,b), Brice Grunert (a), Kaiguang Zhao (c), and Kevin Mueller (a). 
 
 (a) Cleveland State University, Department of Biological, Geological, and Environmental Sciences, Cleveland, OH, 44115, USA  
 
