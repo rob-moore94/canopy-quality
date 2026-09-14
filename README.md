@@ -35,6 +35,8 @@ The tree survey dataset contains the **individual tree-level observations** coll
 
 Each dataset includes a corresponding **metadata table** describing the variables and columns contained within the dataset.
 
+The n of 8,200 is slightly larger than the 8,163 trees that reported in the manuscript as this data includes all tree point even those with missing data that was needed for modeling.
+
 ## Code and Reproducibility
 
 The scripts included in this repository document major components of the analytical workflow and are intended to help researchers reproduce or adapt these methods for other study areas. Although this code primarily utilizes publicly accessible data, our analysis is highly contingent on multi-class land cover data with high spatial resolution.
