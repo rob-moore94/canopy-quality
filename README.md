@@ -67,7 +67,7 @@ The authors request that users not utilize these data for other purposes (e.g., 
 ## Python Environment
 
 Python package requirements and dependencies are specified in the `pixi.toml` file to enable reproducibility of the computational environment used for the analysis.
-
+https://pixi.prefix.dev/latest/ 
 
 Data
 
@@ -90,5 +90,17 @@ U.S. TIGER/LINE ShapeFiles - US Decennial Census - American Community Survey
 https://data.census.gov/, https://www.census.gov/cgi-bin/geo/shapefiles/index.php
 
 Cuyahoga County GIS - https://gis.cuyahogacounty.us/portal/home/
+
+# References
+
+Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R., 2017. Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sens Environ 202, 18–27. https://doi.org/10.1016/j.rse.2017.06.031
+
+O’Neil-Dunne, J., MacFaden, S., Royar, A., 2014. A Versatile, Production-Oriented Approach to High-Resolution Tree-Canopy Mapping in Urban and Suburban Landscapes Using GEOBIA and Data Fusion. Remote Sens (Basel) 6, 12837–12865. https://doi.org/10.3390/rs61212837
+
+van Rossum, G., 2007. Python Programming Language. USENIX Association, Santa Clara, CA.
+
+
+
+
 
 
