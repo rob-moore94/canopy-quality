@@ -40,9 +40,11 @@ The n of 8,200 is slightly larger than the 8,163 trees that reported in the manu
 ## Code and Reproducibility
 
 The scripts included in this repository document major components of the analytical workflow and are intended to help researchers reproduce or adapt these methods for other study areas. Although this code primarily utilizes publicly accessible data, our analysis is highly contingent on multi-class land cover data with high spatial resolution.
-Specifically, generation of residuals as we have done is not only dependent on canopy cover data but also grass/shrub (or other plant cover) as well as impervious surface need to be accounted for. Methods for the production of the land cover data we used can be found here:
+Specifically, generation of residuals as we have done is not only dependent on canopy cover data but also grass/shrub cover (or other plant cover) as well as impervious surface cover. Methods for the production of the land cover data we used can be found here:
 
 https://www.countyplanning.us/projects/urban-tree-canopy-assessment-update/urban-tree-canopy-assessment-update-land-cover-methodology/. 
+
+See https://doi.org/10.3390/rs61212837 for my information related to high-resolution land cover data.
 
 The provided code can be used to:
 
