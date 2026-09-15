@@ -1,7 +1,7 @@
 [workspace]
 channels = ["conda-forge"]
 name = "canopy-quality-repo"
-platforms = ["osx-64"]
+platforms = ["osx-arm64", "osx-64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
