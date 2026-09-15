@@ -4,7 +4,7 @@ This repository contains code and data used for the study **“Beyond Canopy Cov
 
 The repository is intended to document key components of the analytical workflow and support reproducibility and adaptation of these methods to other study areas.
 
-# Authors
+## Authors
 Robert Moore (a,b), Brice Grunert (a), Kaiguang Zhao (c), and Kevin Mueller (a). 
 
 (a) Cleveland State University, Department of Biological, Geological, and Environmental Sciences, Cleveland, OH, 44115, USA  
@@ -13,7 +13,7 @@ Robert Moore (a,b), Brice Grunert (a), Kaiguang Zhao (c), and Kevin Mueller (a).
 
 (c) School of Environment and Natural Resources, The Ohio State University, Columbus, OH, 43210, USA 
 
-# Data
+## Data
 
 Three related datasets are included in this repository.
 
@@ -62,16 +62,17 @@ Some processing and analysis were performed externally using GIS and statistical
 
 The primary purpose of the repository is to provide a record of the computational methods used in the study and to enable researchers to reproduce or adapt these methods for other geographic areas.
 
-The authors request that users not utilize these data for other purposes (e.g., analyses of these data to achieve other scientific aims related to canopy quality specifically or urban ecology generally) without first seeking permission from the corresponding authors, Robert Moore and Kevin Mueller
 
 ## Python Environment
 
 Python package requirements and dependencies are specified in the `pixi.toml` file to enable reproducibility of the computational environment used for the analysis.
 https://pixi.prefix.dev/latest/ 
 
-Data
+Data Useage:
 
 This repository contains data obtained from multiple publicly available third-party sources, as well as datasets and derived products generated as part of this research.
+
+The authors request that users not utilize these data for other purposes (e.g., analyses of these data to achieve other scientific aims related to canopy quality specifically or urban ecology generally) without first seeking permission from the corresponding authors, Robert Moore and Kevin Mueller
 
 Data and derived products created by the authors of this study may be used for research and reproducibility purposes. Users should provide appropriate attribution and cite the associated publication and/or archived repository when using these materials.
 
