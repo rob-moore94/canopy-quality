@@ -1,6 +1,4 @@
-## Urban canopy quality data and analytical methods from
-# Beyond canopy cover: developing & assessing satellite-based indices of canopy quality in cities
-## Beyond canopy cover: developing & assessing satellite-based indices of canopy quality in cities
+## Urban canopy quality data and analytical methods from Beyond canopy cover: developing & assessing satellite-based indices of canopy quality in cities
 
 This repository contains code and data used for the study **“Beyond Canopy Cover: Developing & Assessing Satellite-Based Indices of Canopy Quality in Cities.”**
 
