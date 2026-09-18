@@ -1,10 +1,10 @@
-## Urban canopy quality data and analytical methods from Beyond canopy cover: developing & assessing satellite-based indices of canopy quality in cities
+# Beyond Canopy Cover: Developing & Assessing Satellite-Based Indices of Canopy Quality in Cities
 
 This repository contains code and data used for the study **“Beyond Canopy Cover: Developing & Assessing Satellite-Based Indices of Canopy Quality in Cities.”**
 
 The repository is intended to document key components of the analytical workflow and support reproducibility and adaptation of these methods to other study areas.
 
-## Authors
+# Authors
 Robert Moore (a,b), Brice Grunert (a), Kaiguang Zhao (c), and Kevin Mueller (a). 
 
 (a) Cleveland State University, Department of Biological, Geological, and Environmental Sciences, Cleveland, OH, 44115, USA  
@@ -13,68 +13,67 @@ Robert Moore (a,b), Brice Grunert (a), Kaiguang Zhao (c), and Kevin Mueller (a).
 
 (c) School of Environment and Natural Resources, The Ohio State University, Columbus, OH, 43210, USA 
 
-## Data
+# Data
 
 Three related datasets are included in this repository.
 
 ### 1. Ground-Truthing Analysis Data (n=41 census blocks)
 
-The ground-truthing dataset contains aggregated tree survey data for **41 census blocks** where all woody vegetation within each census block boundary was surveyed using field-based methods.
+The ground-truthing dataset contains aggregated tree survey data for **41 census blocks** where trees and shrubs at least 2 m tall were surveyed using standard protocols from urban forestry and community ecology.
 
-This dataset also includes remotely sensed metrics of canopy quality derived for these census blocks, allowing field-based measurements to be compared with remotely sensed indicators.
+This dataset also includes remotely sensed metrics of canopy quality derived for these census blocks, allowing field-based measurements of ‘canopy quality’ to be compared with remotely sensed indicators of ‘canopy quality’.
 
 ### 2. Remote Sensing Analysis Data (n=8,520 census blocks)
 
-The remote sensing dataset contains the larger sample of census blocks used for the remote sensing component of the study.
+The remote sensing dataset contains the larger sample of census blocks used for the remote sensing component of the study.  All focal census blocks are within Cuyahoga County, Ohio, U.S.A., within which the largest city is Cleveland.
 
-These census blocks contain the remotely sensed indices of canopy quality used in the analysis.
+For each census block, this dataset includes four different remotely sensed indices of canopy quality used in the analysis: three are based on NDVI and one on land surface temperatures (LST).
 
 ### 3. Tree Survey Data (n=8,200 trees)
 
-The tree survey dataset contains the **individual tree-level observations** collected using field-based survey methods.
+The tree survey dataset contains the **individual tree-level observations** collected during ‘on the ground’ field surveys.
 
 Each dataset includes a corresponding **metadata table** describing the variables and columns contained within the dataset.
 
-The n of 8,200 is slightly larger than the 8,163 trees that reported in the manuscript as this data includes all tree point even those with missing data that was needed for modeling.
+The n of 8,200 is slightly larger than the 8,163 trees that were reported in the manuscript, as this data includes all trees even those with missing data that were needed for modeling.
 
 ## Code and Reproducibility
 
-The scripts included in this repository document major components of the analytical workflow and are intended to help researchers reproduce or adapt these methods for other study areas. Although this code primarily utilizes publicly accessible data, our analysis is highly contingent on multi-class land cover data with high spatial resolution.
-Specifically, generation of residuals as we have done is not only dependent on canopy cover data but also grass/shrub cover (or other plant cover) as well as impervious surface cover. Methods for the production of the land cover data we used can be found here:
+The scripts included in this repository document major components of the analytical workflow and are intended to help researchers reproduce or adapt these methods for other study areas. Although this code primarily utilizes publicly accessible data, our analysis is also contingent on multi-class land cover data with high spatial resolution.
+Specifically, our generation of NDVI- and LST-residuals is not only dependent on canopy cover data, but also grass/shrub cover (i.e., other plant cover) and impervious surface cover. Methods to produce the land cover data we used can be found here:
 
 https://www.countyplanning.us/projects/urban-tree-canopy-assessment-update/urban-tree-canopy-assessment-update-land-cover-methodology/. 
 
-See https://doi.org/10.3390/rs61212837 for my information related to high-resolution land cover data.
+See https://doi.org/10.3390/rs61212837 for more general information about the methods used to produce the high-resolution land cover data.
 
 The provided code can be used to:
 
-1. **Download NDVI and land surface temperature (LST) imagery** for a user-defined area of interest using `image-export.py`.
-2. **Reproduce the data filtering procedures** used to prepare the datasets for analysis. `data-filters.py`
-3. **Generate residual-based metrics of LST and NDVI** using the modeling procedures applied in this study `residual-model.py`.
-4. **Calculate zonal statistics** for a series of raster images using census blocks or other polygon-based areas of interest to calculate averages and pixel counts which are needed for all subsequent analysis `zonal-stats.py`.
-5. **Recreate the statistical modeling procedure** used for census blocks containing both field-based tree survey data and remotely sensed canopy-quality metrics `statistical-modeling.py`
+1. **Download NDVI and land surface temperature (LST) imagery** for a user-defined area of interest (using `image-export.py`).
+2. **Reproduce the data filtering procedures** used to prepare the datasets for analysis (e.g., as related to variability in cloud cover and other aspects of data availability; using `data-filters.py`).
+3. **Generate residual-based metrics of LST and NDVI** using linear least squares regression models (via `residual-model.py`).
+4. **Calculate zonal statistics** for a series of raster images using census blocks or other polygon-based areas of interest to calculate averages and pixel counts which are needed for all subsequent analysis (using `zonal-stats.py`).
+5. **Recreate the statistical modeling procedure** for comparing the on-the-ground indices of ‘canopy quality’ with the remotely sensed indices of canopy-quality for the 41 focal census blocks (using `statistical-modeling.py)`
 
 ## Scope and Limitations
 
 The code in this repository documents important components of the analytical workflow but does not represent the complete analysis conducted for the study.
 
-Some processing and analysis were performed externally using GIS and statistical software and are therefore not fully represented by the scripts provided here.
+Most notably, some processing and analysis were performed outside of python working environments via GIS and statistical software (ArcGIS, QGIS, and JMP)
 
 The primary purpose of the repository is to provide a record of the computational methods used in the study and to enable researchers to reproduce or adapt these methods for other geographic areas.
 
+The authors request that users first seek permission from the corresponding authors, Robert Moore and Kevin Mueller, before utilizing these data for other purposes (e.g., analyses of these data to achieve other scientific aims related to canopy quality specifically or urban ecology and forestry more generally) 
 
 ## Python Environment
 
 Python package requirements and dependencies are specified in the `pixi.toml` file to enable reproducibility of the computational environment used for the analysis.
 https://pixi.prefix.dev/latest/ 
 
-Data Useage:
+Data
 
 This repository contains data obtained from multiple publicly available third-party sources, as well as datasets and derived products generated as part of this research.
 
-The authors request that users not utilize these data for other purposes (e.g., analyses of these data to achieve other scientific aims related to canopy quality specifically or urban ecology generally) without first seeking permission from the corresponding authors, Robert Moore and Kevin Mueller
-
-Data and derived products created by the authors of this study may be used for research and reproducibility purposes. Users should provide appropriate attribution and cite the associated publication and/or archived repository when using these materials.
+Data and derived products created by the authors of this study may be used for research and reproducibility purposes. Users should provide appropriate attribution and cite the associated publication and the archived repository of code and data when using these materials.
 
 Please refer to the dataset metadata and original data providers for additional information regarding individual data sources.
 
@@ -92,13 +91,14 @@ https://data.census.gov/, https://www.census.gov/cgi-bin/geo/shapefiles/index.ph
 
 Cuyahoga County GIS - https://gis.cuyahogacounty.us/portal/home/
 
-## References
+# References
 
 Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R., 2017. Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sens Environ 202, 18–27. https://doi.org/10.1016/j.rse.2017.06.031
 
 O’Neil-Dunne, J., MacFaden, S., Royar, A., 2014. A Versatile, Production-Oriented Approach to High-Resolution Tree-Canopy Mapping in Urban and Suburban Landscapes Using GEOBIA and Data Fusion. Remote Sens (Basel) 6, 12837–12865. https://doi.org/10.3390/rs61212837
 
 van Rossum, G., 2007. Python Programming Language. USENIX Association, Santa Clara, CA.
+<img width="468" height="645" alt="image" src="https://github.com/user-attachments/assets/99bada65-43ce-470e-b5fc-2397911ed1a4" />
 
 
 
