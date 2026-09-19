@@ -98,7 +98,6 @@ Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R., 201
 O’Neil-Dunne, J., MacFaden, S., Royar, A., 2014. A Versatile, Production-Oriented Approach to High-Resolution Tree-Canopy Mapping in Urban and Suburban Landscapes Using GEOBIA and Data Fusion. Remote Sens (Basel) 6, 12837–12865. https://doi.org/10.3390/rs61212837
 
 van Rossum, G., 2007. Python Programming Language. USENIX Association, Santa Clara, CA.
-<img width="468" height="645" alt="image" src="https://github.com/user-attachments/assets/99bada65-43ce-470e-b5fc-2397911ed1a4" />
 
 
 
